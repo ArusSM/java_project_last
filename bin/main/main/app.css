@@ -1,0 +1,44 @@
+#loginPane, #registerPage {
+	-fx-background-image: url(/resources/back.jpg);
+	-fx-background-size: 100% 100%
+}
+
+#loginLabel {
+	-fx-effect: dropshadow(gaussian, #ffffff, 10.0, 0.1, 0.0, 0.0);
+	/*블루어효과, 색상, blur범위, 흩어지는 정도, x, y*/
+}
+
+#registerTitle {
+	-fx-effect: dropshadow(gaussian, #ffffff, 10.0, 0.1, 0.0, 0.0);
+}
+
+#registerForm {
+	-fx-background-color: rgba(230.0, 230.0, 230.0, 0.5);
+	-fx-background-radius: 20.0px;
+}
+
+.btn {
+	-fx-background-radius: 5.0px;
+	-fx-border-radius: 5.0px;
+	-fx-text-fill: #fff;
+}
+
+.btn-success {
+	-fx-background-color:#007bff;
+	-fx-border-color:#007bff;
+}
+
+.btn-success:hover {
+	-fx-background-color:#0069d9;
+	-fx-border-color:#0062cc;
+}
+
+.btn-danger {
+	-fx-background-color:#dc3545;
+	-fx-border-color: #dc3545;
+}
+
+.btn-danger:hover {
+	-fx-background-color:#c82333;
+	-fx-border-color: #bd2130;
+}
